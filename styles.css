@@ -1,0 +1,277 @@
+html {
+  font-family: 'Nunito Sans', sans-serif;
+  margin: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+nav {
+  background-color: #ffffff;
+  margin: 0px;
+  padding: 5px;
+}
+
+nav li {
+  display: inline;
+  padding-right: 30px;
+}
+
+nav a {
+  vertical-align: middle;
+}
+
+.logo {
+  text-decoration: none;
+  color: #222222;
+}
+
+.navitem a {
+  text-decoration: none;
+  color: #222222;
+}
+
+.navitem a:hover {
+  /* text-decoration: underline; */
+  border-bottom: 1.5px solid #add6d8;
+}
+
+main {
+  background-color: #eafeff;
+  margin: 0px;
+}
+
+.heroimage img {
+  width: 100%;
+  height: auto;
+}
+
+.bannertitle h2 {
+  position: absolute;
+  text-align: left;
+  top: 18%;
+  width: 30%;
+  font-size: 7vmin;
+  font-family: 'Sue Ellen Francisco', cursive;
+  margin-left: 17%;
+  margin-right: 53%;
+  color: #222222;
+  text-decoration: underline;
+  text-decoration-color: #add6d8;
+  line-height: 1em;
+}
+
+.morecontenttitle {
+  background-color: #eafeff;
+  margin: 0px;
+  vertical-align: middle;
+}
+
+.morecontenttitle h1 {
+  text-align: center;
+  padding: 15px;
+}
+
+.row {
+}
+
+.column1 {
+  float: left;
+  width: 30%;
+  padding: 20px;
+  max-height: 300px;
+  overflow:auto;
+}
+
+.column1 h1 {
+  font-family: 'Sue Ellen Francisco', cursive;
+  text-decoration:underline;
+  text-decoration-color: #add6d8;
+}
+
+main a {
+  text-decoration: none;
+  border: 1px solid #add6d8;
+  background-color: #add6d8;
+  padding: 0.5em;
+  border-radius: 6px;
+  color: #222222;
+}
+
+main a:hover {
+  background-color: #ffffff;
+
+}
+
+.column2 {
+  float: left;
+  width: 70%;
+  background-image: url("bed.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.bigcenter {
+  float: left;
+  width: 100%;
+  height: 500px;
+  padding-top: 50px;
+  background-image: url("rectangle.png");
+  background-size: cover;
+
+}
+
+.bigcenter h1 {
+  font-family: 'Sue Ellen Francisco', cursive;
+  text-align: center;
+}
+
+.bigcenter h3 {
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.homes {
+  color: #add6d8;
+}
+
+.row3{
+  margin-bottom: 30px;
+}
+
+.leftcolumn {
+  float: left;
+  width: 30%;
+  padding: 20px;
+  height: 300px;
+  overflow:auto;
+  background-image: url("bedroom.jpg");
+  background-size: cover;
+  margin-top: 30px;
+}
+
+.midcolumn {
+  float: left;
+  width: 35%;
+  padding: 20px;
+  height: 300px;
+  overflow:auto;
+  margin-top: 30px;
+}
+
+.midcolumn h1 {
+  font-family: 'Sue Ellen Francisco', cursive;
+  text-decoration:underline;
+  text-decoration-color: #add6d8;
+}
+
+.rightcolumn {
+  float: left;
+  margin-top: 30px;
+  width: 35%;
+  padding: 20px;
+  height: 300px;
+  overflow:auto;
+  background-image: url("bedroom2.jpg");
+  background-size: cover;
+  background-position: left bottom;
+}
+
+.row1 a,.row2 a {
+  text-decoration: none;
+  color: #222222;
+}
+
+.row1 a:hover,.row2 a:hover {
+  color: #add6d8;
+  text-decoration: underline;
+}
+
+.row1 p,.row2 p {
+  margin: 0px;
+  font-size: 12px;
+}
+
+.lc {
+  float: left;
+  width: 20%;
+  padding: 20px;
+  height: 350px;
+  overflow:auto;
+  background-image: url("r1.png");
+  background-size: cover;
+  vertical-align: middle;
+}
+
+.lc h1 {
+  font-family: 'Sue Ellen Francisco', cursive;
+  padding-left: 20px;
+  padding-top: 50px;
+}
+
+.mc1 {
+  float: left;
+  width: 20%;
+  padding: 40px;
+  height: 350px;
+  overflow:auto;
+}
+
+.mc2 {
+  float: left;
+  width: 20%;
+  padding: 40px;
+  height: 350px;
+  overflow:auto;
+}
+
+.mc3 {
+  float: left;
+  width: 20%;
+  padding: 40px;
+  height: 350px;
+  overflow:auto;
+}
+
+.rc {
+  float: left;
+  width: 20%;
+  padding: 20px;
+  height: 350px;
+  overflow:auto;
+}
+
+.mc1 img,.mc2 img,.mc3 img, .rc img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  height: 10px;
+  margin-top: 200px;
+}
+
+footer p {
+  font-size: 15px;
+  line-height: 10px;
+  color: #222222;
+}
+
+footer a {
+  text-decoration: none;
+  color: #222222;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: #add6d8;
+}
+
+footer img {
+  float: right;
+}
